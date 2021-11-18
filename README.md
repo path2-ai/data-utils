@@ -7,7 +7,7 @@ Clone this repository and install the dependencies into an environment (e.g. Con
 
 ## How to use
 This tool is CLI-based, so you can just open a terminal, change directory into this repository, and then execute
-`python json_converter.py --filename <your_filename>`.
+`python json_converter.py --filename <your_filename>`
 
 For instance, if you have a file `my_input_file.csv` with the following data
 ```csv
@@ -36,7 +36,7 @@ running_id,text
 ```
 
 You can configure the conversion in typical Pandas style by providing arguments, e.g. for the delimiter of csv files such as
-`python json_converter.py --filename my_input_file.csv --sep ';'`. 
+`python json_converter.py --filename my_input_file.csv --sep ';'`
 
 We currently support:
 - [Excel](https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html) (supports xls, xlsx, xlsm, xlsb, odf, ods and odt file extensions read from a local filesystem or URL)
